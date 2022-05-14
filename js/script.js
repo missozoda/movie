@@ -5,7 +5,7 @@ kinolar.forEach(function(kino){
   let newpTitle = createElement("p","title", `Title: ${kino.title}`);
   let newPYear = createElement("p", "year", `Year: ${kino.year}`);
   let newPCast = createElement("p", "cast", `Cast: ${kino.cast.join(", ")}`);
-  let newPGenres = createElement("p", "genres", `Genres: ${kino.genres.join(", ")}`add);
+  let newPGenres = createElement("p", "genres", `Genres: ${kino.genres.join(", ")}`);
 
   newLi.append(newpTitle, newPYear, newPCast, newPGenres);
   elMovieList.append(newLi);
